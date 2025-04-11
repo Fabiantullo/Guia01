@@ -52,6 +52,6 @@ public class Reloj {
     }
 
     public void getTiempoActual() {
-        System.out.println(this.hora + ":" + this.minuto + ":" + this.segundo);
+        System.out.printf("%02d:%02d:%02d%n", hora, minuto, segundo);
     }
 }
